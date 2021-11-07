@@ -1,0 +1,83 @@
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Database: `sql_tutorial`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `student_adv`
+--
+
+CREATE TABLE IF NOT EXISTS `student_adv` (
+  `id` int(2) NOT NULL AUTO_INCREMENT,
+  `name` varchar(50) NOT NULL DEFAULT '',
+  `class` varchar(10) NOT NULL DEFAULT '',
+  `mark` int(3) NOT NULL DEFAULT '0',
+  UNIQUE KEY `id` (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=57 ;
+
+--
+-- Dumping data for table `student_adv`
+--
+
+INSERT INTO `student_adv` (`id`, `name`, `class`, `mark`) VALUES
+(1, 'John Deo', 'Four', 75),
+(2, 'Max Ruin', 'Three', 85),
+(3, 'Arnold', 'Three', 55),
+(4, 'Krish Star', 'Four', 60),
+(5, 'John Mike', 'Four', 60),
+(6, 'Alex John', 'Four', 55),
+(7, 'My John Rob', 'Fifth', 78),
+(8, 'Asruid', 'Five', 85),
+(9, 'Tes Qry', 'Six', 78),
+(10, 'Big John', 'Four', 55),
+(11, 'Ronald', 'Six', 89),
+(12, 'Recky', 'Six', 94),
+(13, 'Kty', 'Seven', 88),
+(14, 'Bigy', 'Seven', 88),
+(15, 'Tade Row', 'Four', 88),
+(16, 'Gimmy', 'Four', 88),
+(17, 'Tumyu', 'Six', 54),
+(18, 'Honny', 'Five', 75),
+(19, 'Tinny', 'Nine', 18),
+(20, 'Jackly', 'Nine', 65),
+(21, 'Babby John', 'Four', 69),
+(22, 'Reggid', 'Seven', 55),
+(23, 'Herod', 'Eight', 79),
+(24, 'Tiddy Now', 'Seven', 78),
+(25, 'Giff Tow', 'Seven', 88),
+(26, 'Crelea', 'Seven', 79),
+(27, 'Big Nose', 'Three', 81),
+(28, 'Rojj Base', 'Seven', 86),
+(29, 'Tess Played', 'Seven', 55),
+(30, 'Reppy Red', 'Six', 79),
+(31, 'Marry Toeey', 'Four', 88),
+(32, 'Binn Rott', 'Seven', 90),
+(33, 'Kenn Rein', 'Six', 96),
+(34, 'Gain Toe', 'Seven', 69),
+(35, 'Rows Noump', 'Six', 88),
+(36, 'name1', 'Four', 86),
+(37, 'name 2', 'Four', 86),
+(38, 'name 3', 'Seven', 78),
+(39, 'name 4', 'Seven', 75),
+(40, 'name 5', 'Seven', 65),
+(41, 'name 7', 'Seven', 87),
+(42, 'name 8', 'Seven', 72),
+(43, 'name 9', 'Four', 65),
+(44, 'name 10', 'Seven', 56),
+(45, 'name 11', 'Four', 87),
+(46, 'name 12', 'Three', 65),
+(47, 'name 13', 'Three', 65),
+(48, 'name 14', 'Three', 70),
+(49, 'name 15', 'Four', 63),
+(50, 'name 16', 'Three', 55),
+(51, 'name 16', 'Three', 64),
+(52, 'name 17', 'Three', 88),
+(53, 'name 18', 'Three', 87),
+(54, 'name 19', 'Four', 55),
+(55, 'name 20', 'Three', 55),
+(56, 'name 21', 'Three', 68);
